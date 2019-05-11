@@ -12,26 +12,43 @@
 		52363CBB2284F0C500B6FCB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52363CB92284F0C500B6FCB3 /* Main.storyboard */; };
 		52363CBD2284F0C900B6FCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52363CBC2284F0C900B6FCB3 /* Assets.xcassets */; };
 		52363CC02284F0C900B6FCB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52363CBE2284F0C900B6FCB3 /* LaunchScreen.storyboard */; };
-		52363CCB2284F0C900B6FCB3 /* CurrencyCoverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52363CCA2284F0C900B6FCB3 /* CurrencyCoverterTests.swift */; };
-		52363CD62284F0CA00B6FCB3 /* CurrencyCoverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52363CD52284F0CA00B6FCB3 /* CurrencyCoverterUITests.swift */; };
+		5252E17C2286214F003D11AD /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5252E17A2286214F003D11AD /* Realm.framework */; };
+		5252E17D2286214F003D11AD /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5252E17A2286214F003D11AD /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5252E17E2286214F003D11AD /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5252E17B2286214F003D11AD /* RealmSwift.framework */; };
+		5252E17F2286214F003D11AD /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5252E17B2286214F003D11AD /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52AA8C112285C03D000EA948 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA8C102285C03D000EA948 /* ViewModel.swift */; };
+		52AA8C192285D61C000EA948 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA8C132285D61B000EA948 /* RxRelay.framework */; };
+		52AA8C1A2285D61C000EA948 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA8C132285D61B000EA948 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52AA8C1D2285D61C000EA948 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA8C152285D61B000EA948 /* RxSwift.framework */; };
+		52AA8C1E2285D61C000EA948 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA8C152285D61B000EA948 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52AA8C1F2285D61C000EA948 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA8C162285D61C000EA948 /* RxCocoa.framework */; };
+		52AA8C202285D61C000EA948 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA8C162285D61C000EA948 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52AA8C232285E301000EA948 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA8C222285E301000EA948 /* Currency.swift */; };
+		52AA8C252285E818000EA948 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA8C242285E818000EA948 /* DataManager.swift */; };
+		52AA8C272286073C000EA948 /* CurrencyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA8C262286073C000EA948 /* CurrencyAPI.swift */; };
+		52AA8C2922860C4B000EA948 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA8C2822860C4B000EA948 /* Alamofire.framework */; };
+		52AA8C2A22860C4B000EA948 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52AA8C2822860C4B000EA948 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52AA8C2C22860D65000EA948 /* CurrencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA8C2B22860D65000EA948 /* CurrencyList.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		52363CC72284F0C900B6FCB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52363CAA2284F0C400B6FCB3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52363CB12284F0C400B6FCB3;
-			remoteInfo = CurrencyCoverter;
+/* Begin PBXCopyFilesBuildPhase section */
+		52AA8C212285D61C000EA948 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				52AA8C1E2285D61C000EA948 /* RxSwift.framework in Embed Frameworks */,
+				52AA8C1A2285D61C000EA948 /* RxRelay.framework in Embed Frameworks */,
+				5252E17F2286214F003D11AD /* RealmSwift.framework in Embed Frameworks */,
+				52AA8C202285D61C000EA948 /* RxCocoa.framework in Embed Frameworks */,
+				52AA8C2A22860C4B000EA948 /* Alamofire.framework in Embed Frameworks */,
+				5252E17D2286214F003D11AD /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52363CD22284F0C900B6FCB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52363CAA2284F0C400B6FCB3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52363CB12284F0C400B6FCB3;
-			remoteInfo = CurrencyCoverter;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		52363CB22284F0C400B6FCB3 /* CurrencyCoverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyCoverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,12 +58,17 @@
 		52363CBC2284F0C900B6FCB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52363CBF2284F0C900B6FCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52363CC12284F0C900B6FCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52363CC62284F0C900B6FCB3 /* CurrencyCoverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyCoverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52363CCA2284F0C900B6FCB3 /* CurrencyCoverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCoverterTests.swift; sourceTree = "<group>"; };
-		52363CCC2284F0C900B6FCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52363CD12284F0C900B6FCB3 /* CurrencyCoverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyCoverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52363CD52284F0CA00B6FCB3 /* CurrencyCoverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCoverterUITests.swift; sourceTree = "<group>"; };
-		52363CD72284F0CA00B6FCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5252E17A2286214F003D11AD /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		5252E17B2286214F003D11AD /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		52AA8C102285C03D000EA948 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		52AA8C132285D61B000EA948 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		52AA8C152285D61B000EA948 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		52AA8C162285D61C000EA948 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		52AA8C222285E301000EA948 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		52AA8C242285E818000EA948 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		52AA8C262286073C000EA948 /* CurrencyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyAPI.swift; sourceTree = "<group>"; };
+		52AA8C2822860C4B000EA948 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		52AA8C2B22860D65000EA948 /* CurrencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,20 +76,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52363CC32284F0C900B6FCB3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52363CCE2284F0C900B6FCB3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				52AA8C1D2285D61C000EA948 /* RxSwift.framework in Frameworks */,
+				52AA8C192285D61C000EA948 /* RxRelay.framework in Frameworks */,
+				5252E17E2286214F003D11AD /* RealmSwift.framework in Frameworks */,
+				52AA8C1F2285D61C000EA948 /* RxCocoa.framework in Frameworks */,
+				52AA8C2922860C4B000EA948 /* Alamofire.framework in Frameworks */,
+				5252E17C2286214F003D11AD /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,9 +91,13 @@
 		52363CA92284F0C400B6FCB3 = {
 			isa = PBXGroup;
 			children = (
+				5252E17A2286214F003D11AD /* Realm.framework */,
+				5252E17B2286214F003D11AD /* RealmSwift.framework */,
+				52AA8C2822860C4B000EA948 /* Alamofire.framework */,
+				52AA8C162285D61C000EA948 /* RxCocoa.framework */,
+				52AA8C132285D61B000EA948 /* RxRelay.framework */,
+				52AA8C152285D61B000EA948 /* RxSwift.framework */,
 				52363CB42284F0C400B6FCB3 /* CurrencyCoverter */,
-				52363CC92284F0C900B6FCB3 /* CurrencyCoverterTests */,
-				52363CD42284F0C900B6FCB3 /* CurrencyCoverterUITests */,
 				52363CB32284F0C400B6FCB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				52363CB22284F0C400B6FCB3 /* CurrencyCoverter.app */,
-				52363CC62284F0C900B6FCB3 /* CurrencyCoverterTests.xctest */,
-				52363CD12284F0C900B6FCB3 /* CurrencyCoverterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,32 +113,35 @@
 		52363CB42284F0C400B6FCB3 /* CurrencyCoverter */ = {
 			isa = PBXGroup;
 			children = (
-				52363CB52284F0C400B6FCB3 /* AppDelegate.swift */,
-				52363CB72284F0C500B6FCB3 /* ViewController.swift */,
-				52363CB92284F0C500B6FCB3 /* Main.storyboard */,
+				52363CE42284F0D800B6FCB3 /* data */,
+				52363CE32284F0D200B6FCB3 /* ui */,
 				52363CBC2284F0C900B6FCB3 /* Assets.xcassets */,
+				52363CB52284F0C400B6FCB3 /* AppDelegate.swift */,
 				52363CBE2284F0C900B6FCB3 /* LaunchScreen.storyboard */,
 				52363CC12284F0C900B6FCB3 /* Info.plist */,
 			);
 			path = CurrencyCoverter;
 			sourceTree = "<group>";
 		};
-		52363CC92284F0C900B6FCB3 /* CurrencyCoverterTests */ = {
+		52363CE32284F0D200B6FCB3 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				52363CCA2284F0C900B6FCB3 /* CurrencyCoverterTests.swift */,
-				52363CCC2284F0C900B6FCB3 /* Info.plist */,
+				52363CB72284F0C500B6FCB3 /* ViewController.swift */,
+				52AA8C102285C03D000EA948 /* ViewModel.swift */,
+				52363CB92284F0C500B6FCB3 /* Main.storyboard */,
 			);
-			path = CurrencyCoverterTests;
+			path = ui;
 			sourceTree = "<group>";
 		};
-		52363CD42284F0C900B6FCB3 /* CurrencyCoverterUITests */ = {
+		52363CE42284F0D800B6FCB3 /* data */ = {
 			isa = PBXGroup;
 			children = (
-				52363CD52284F0CA00B6FCB3 /* CurrencyCoverterUITests.swift */,
-				52363CD72284F0CA00B6FCB3 /* Info.plist */,
+				52AA8C222285E301000EA948 /* Currency.swift */,
+				52AA8C2B22860D65000EA948 /* CurrencyList.swift */,
+				52AA8C242285E818000EA948 /* DataManager.swift */,
+				52AA8C262286073C000EA948 /* CurrencyAPI.swift */,
 			);
-			path = CurrencyCoverterUITests;
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +154,7 @@
 				52363CAE2284F0C400B6FCB3 /* Sources */,
 				52363CAF2284F0C400B6FCB3 /* Frameworks */,
 				52363CB02284F0C400B6FCB3 /* Resources */,
+				52AA8C212285D61C000EA948 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,42 +164,6 @@
 			productName = CurrencyCoverter;
 			productReference = 52363CB22284F0C400B6FCB3 /* CurrencyCoverter.app */;
 			productType = "com.apple.product-type.application";
-		};
-		52363CC52284F0C900B6FCB3 /* CurrencyCoverterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52363CDD2284F0CA00B6FCB3 /* Build configuration list for PBXNativeTarget "CurrencyCoverterTests" */;
-			buildPhases = (
-				52363CC22284F0C900B6FCB3 /* Sources */,
-				52363CC32284F0C900B6FCB3 /* Frameworks */,
-				52363CC42284F0C900B6FCB3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52363CC82284F0C900B6FCB3 /* PBXTargetDependency */,
-			);
-			name = CurrencyCoverterTests;
-			productName = CurrencyCoverterTests;
-			productReference = 52363CC62284F0C900B6FCB3 /* CurrencyCoverterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		52363CD02284F0C900B6FCB3 /* CurrencyCoverterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52363CE02284F0CA00B6FCB3 /* Build configuration list for PBXNativeTarget "CurrencyCoverterUITests" */;
-			buildPhases = (
-				52363CCD2284F0C900B6FCB3 /* Sources */,
-				52363CCE2284F0C900B6FCB3 /* Frameworks */,
-				52363CCF2284F0C900B6FCB3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52363CD32284F0C900B6FCB3 /* PBXTargetDependency */,
-			);
-			name = CurrencyCoverterUITests;
-			productName = CurrencyCoverterUITests;
-			productReference = 52363CD12284F0C900B6FCB3 /* CurrencyCoverterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,14 +177,6 @@
 				TargetAttributes = {
 					52363CB12284F0C400B6FCB3 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					52363CC52284F0C900B6FCB3 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 52363CB12284F0C400B6FCB3;
-					};
-					52363CD02284F0C900B6FCB3 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 52363CB12284F0C400B6FCB3;
 					};
 				};
 			};
@@ -218,8 +194,6 @@
 			projectRoot = "";
 			targets = (
 				52363CB12284F0C400B6FCB3 /* CurrencyCoverter */,
-				52363CC52284F0C900B6FCB3 /* CurrencyCoverterTests */,
-				52363CD02284F0C900B6FCB3 /* CurrencyCoverterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +209,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52363CC42284F0C900B6FCB3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52363CCF2284F0C900B6FCB3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -256,41 +216,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AA8C232285E301000EA948 /* Currency.swift in Sources */,
+				52AA8C252285E818000EA948 /* DataManager.swift in Sources */,
+				52AA8C2C22860D65000EA948 /* CurrencyList.swift in Sources */,
 				52363CB82284F0C500B6FCB3 /* ViewController.swift in Sources */,
+				52AA8C112285C03D000EA948 /* ViewModel.swift in Sources */,
 				52363CB62284F0C400B6FCB3 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52363CC22284F0C900B6FCB3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52363CCB2284F0C900B6FCB3 /* CurrencyCoverterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52363CCD2284F0C900B6FCB3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52363CD62284F0CA00B6FCB3 /* CurrencyCoverterUITests.swift in Sources */,
+				52AA8C272286073C000EA948 /* CurrencyAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		52363CC82284F0C900B6FCB3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52363CB12284F0C400B6FCB3 /* CurrencyCoverter */;
-			targetProxy = 52363CC72284F0C900B6FCB3 /* PBXContainerItemProxy */;
-		};
-		52363CD32284F0C900B6FCB3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52363CB12284F0C400B6FCB3 /* CurrencyCoverter */;
-			targetProxy = 52363CD22284F0C900B6FCB3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		52363CB92284F0C500B6FCB3 /* Main.storyboard */ = {
@@ -433,6 +369,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CurrencyCoverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +390,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CurrencyCoverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,84 +403,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		52363CDE2284F0CA00B6FCB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CurrencyCoverterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hanting.CurrencyCoverterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyCoverter.app/CurrencyCoverter";
-			};
-			name = Debug;
-		};
-		52363CDF2284F0CA00B6FCB3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CurrencyCoverterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hanting.CurrencyCoverterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyCoverter.app/CurrencyCoverter";
-			};
-			name = Release;
-		};
-		52363CE12284F0CA00B6FCB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CurrencyCoverterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hanting.CurrencyCoverterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CurrencyCoverter;
-			};
-			name = Debug;
-		};
-		52363CE22284F0CA00B6FCB3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CurrencyCoverterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hanting.CurrencyCoverterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CurrencyCoverter;
 			};
 			name = Release;
 		};
@@ -557,24 +423,6 @@
 			buildConfigurations = (
 				52363CDB2284F0CA00B6FCB3 /* Debug */,
 				52363CDC2284F0CA00B6FCB3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52363CDD2284F0CA00B6FCB3 /* Build configuration list for PBXNativeTarget "CurrencyCoverterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52363CDE2284F0CA00B6FCB3 /* Debug */,
-				52363CDF2284F0CA00B6FCB3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52363CE02284F0CA00B6FCB3 /* Build configuration list for PBXNativeTarget "CurrencyCoverterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52363CE12284F0CA00B6FCB3 /* Debug */,
-				52363CE22284F0CA00B6FCB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
